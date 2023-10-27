@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<github/emryselim>/docker-instance/aws"
+    source = "emryselim/docker-instance/aws"
     key_name = "put your key name"
 }
 ```
